@@ -4,8 +4,11 @@ npm install grunt-contrib-uglify --save-dev;
 npm install grunt-contrib-jshint --save-dev;
 npm install grunt-contrib-qunit --save-dev;
 npm install qunitjs --save-dev;
-cp --parents node_modules/qunitjs/qunit/qunit.js js/test/qunit.js;
-cp --parents node_modules/qunitjs/qunit/qunit.css js/test/qunit.css;
+mkdir --parents js/test;
+mkdir --parents js/lib;
+mkdir --parents js/prod;
+cp node_modules/qunitjs/qunit/qunit.js js/test/qunit.js;
+cp node_modules/qunitjs/qunit/qunit.css js/test/qunit.css;
 cat <<EOF>js/test/test.html
 <!DOCTYPE html>
 <html>
