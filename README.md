@@ -2,8 +2,8 @@ Gavin's Grunt Setup
 ===========
 
 You only have to do these steps once:
-1. Install [NodeJS](http://nodejs.org/)
-2. Install [Grunt](http://gruntjs.com/getting-started) (`npm install -g grunt-cli`)
+* Install [NodeJS](http://nodejs.org/)
+* Install [Grunt](http://gruntjs.com/getting-started) (`npm install -g grunt-cli`)
 
 
 In your project:
