@@ -7,7 +7,7 @@ You only have to do these steps once:
 
 
 In your project:
-```
+```bash
 $ wget https://raw.github.com/gavinblair/grunt-setup/master/setup.sh
 $ ./setup.sh
 (wait, answer the questions it asks)
