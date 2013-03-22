@@ -14,7 +14,7 @@ $ ./setup.sh
 $ grunt
 ```
 
-This will start a watcher for `.js` files in the `js` directory. Every time you save a `js` file, it will be linted with [JSHint](http://www.jshint.com/), minified and all of your [QUnit](http://qunitjs.com/) tests will run.
+This will start a watcher for `.js` files in the `js` directory. Every time you save a `js` file, it will be linted with [JSHint](http://www.jshint.com/), minified and all of your [QUnit](http://qunitjs.com/) tests will run, in the commandline.
 
 Put all tests in `js/test/tests.js`.
 
